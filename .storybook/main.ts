@@ -25,6 +25,10 @@ const config: StorybookConfig = {
   },
   "staticDirs": [
     "../public"
-  ]
+  ],
+  managerHead: (head) => `
+    <base href="/bright-bites/storybook/">
+    ${head}
+  `
 };
 export default config;
