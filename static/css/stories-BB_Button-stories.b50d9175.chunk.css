@@ -1,0 +1,47 @@
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6px; 
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #E6E6E6; 
+    display: flex;
+  }
+  .button:hover {
+    background-color: #F5F5F5;
+  }
+  .button--primary {
+    background-color: #6936F5;
+    color: white;
+  }
+  .button--primary:hover {
+    background-color: #3d0fb9;
+    color: white;
+  }
+  .button--secondary {
+    background-color: white;
+    color: #060A23;
+  }
+  .button--secondary:hover {
+    background-color: #F5F5F5;
+    color: #060A23;
+  }
+  .button--small {
+    padding: 4px;
+    font-size: 10px;
+  }
+  .button--medium {
+    padding: 8px;
+    font-size: 14px;
+  }
+  .button--large {
+    align-items: center;   
+    justify-content: center;
+    padding: 12px;
+    font-size: 14px;
+    width: 250px;
+    text-align: center;
+  }
+
+/*# sourceMappingURL=stories-BB_Button-stories.b50d9175.chunk.css.map*/
