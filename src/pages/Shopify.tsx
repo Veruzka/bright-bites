@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../stories/Navigation";
+import Navigation from "../stories/Framer_Navigation";
 
 const Shopify: React.FC = () => {
     return (

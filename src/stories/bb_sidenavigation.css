@@ -1,0 +1,24 @@
+.side-nav {
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+    padding: 20px 0;
+    position: fixed;
+  }
+  
+  .side-nav__logo img {
+    width: 40px;
+    height: auto;
+  }
+  
+  .side-nav__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  

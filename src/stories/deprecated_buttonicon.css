@@ -1,0 +1,97 @@
+@import "@radix-ui/colors/black-alpha.css";
+@import "@radix-ui/colors/violet.css";
+
+
+/* reset */
+button {
+	all: unset;
+}
+
+.TooltipContent {
+	border-radius: 32px;
+	padding: 10px 12px;
+	font-size: 10px;
+	line-height: 1;
+	color: #060A23;
+	background-color: #F5F5F5;
+	user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+.TooltipContent[data-state="delayed-open"][data-side="top"] {
+	animation-name: slideDownAndFade;
+}
+.TooltipContent[data-state="delayed-open"][data-side="right"] {
+	animation-name: slideLeftAndFade;
+}
+.TooltipContent[data-state="delayed-open"][data-side="bottom"] {
+	animation-name: slideUpAndFade;
+}
+.TooltipContent[data-state="delayed-open"][data-side="left"] {
+	animation-name: slideRightAndFade;
+}
+
+.TooltipArrow {
+	fill: white;
+}
+
+.IconButton {
+	font-family: inherit;
+	border-radius: 100%;
+	height: 45px;
+	width: 45px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #636A7E;
+	background-color: white;
+	user-select: none;
+    cursor: pointer;
+}
+
+.IconButton.selected {
+	background-color: #E0D7D7;
+}
+
+@keyframes slideUpAndFade {
+	from {
+		opacity: 0;
+		transform: translateY(2px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes slideRightAndFade {
+	from {
+		opacity: 0;
+		transform: translateX(-2px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideDownAndFade {
+	from {
+		opacity: 0;
+		transform: translateY(-2px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes slideLeftAndFade {
+	from {
+		opacity: 0;
+		transform: translateX(2px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
