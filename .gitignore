@@ -1,5 +1,6 @@
 # Ignore dependencies folder
 node_modules/
+node_modules/.cache/
 
 # Ignore build artifacts
 storybook-static/
