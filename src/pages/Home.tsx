@@ -1,13 +1,15 @@
-import React from "react";
+import React, { Suspense } from "react";
 import SideNavigation from "../stories/BB_SideNavigation";
-import Hero from "../stories/BB_Hero";
 import Card from "../framer/card";
 import Divider from "../framer/divider";
 import Spacing from "../stories/BB_Spacing";
 import Sidebar from "../framer/sidebar";
 import ItemsListFramerComponent from "../framer/items-list";
 
+const Hero = React.lazy(() => import("../stories/BB_Hero"));
+
 const Home: React.FC = () => {
+
     return (
         <div style={{ display: "flex", height: "100vh", width: "100vw", overflow: "hidden" }}>
             {/* Side navigation */}
@@ -17,7 +19,9 @@ const Home: React.FC = () => {
 
             {/* Main content (Hero flush with SideNav) */}
             <div style={{ flexGrow: 1, display: "flex", flexDirection: "column", width: "100%", overflow: "auto" }}>
-                <Hero />
+                <Suspense fallback={<div>Loading...</div>}>
+                    <Hero />
+                </Suspense>
                 <div style={{ flexGrow: 1, padding: "24px 80px" }}>
                     <h1>Welcome to My Portfolio</h1>
                     <Divider/>
