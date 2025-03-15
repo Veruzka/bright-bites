@@ -1,0 +1,16 @@
+import React from "react";
+import "./bb_hero.css";
+import "../styles/typography.css";
+import Button from "./BB_Button";
+
+const Hero: React.FC = () => {
+  return (
+    <div className="hero-main">
+      <h2 className="bold">Web Stores Connected</h2>
+      <p className="small">This is your list of web stores connected and ready for snacking!</p>
+      <Button primary={false} size='medium' label="Add new" onClick={() => console.log("Button clicked")}/>
+    </div>
+  );
+};
+
+export default Hero;
