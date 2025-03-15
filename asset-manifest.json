@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bright-bites/static/css/main.d02fc638.css",
-    "main.js": "/bright-bites/static/js/main.13a312bd.js",
+    "main.css": "/bright-bites/static/css/main.a300d3d6.css",
+    "main.js": "/bright-bites/static/js/main.0c072b3e.js",
     "static/js/904.149d2386.chunk.js": "/bright-bites/static/js/904.149d2386.chunk.js",
     "static/js/134.98c687c0.chunk.js": "/bright-bites/static/js/134.98c687c0.chunk.js",
     "static/js/154.080d0ac7.chunk.js": "/bright-bites/static/js/154.080d0ac7.chunk.js",
@@ -12,8 +12,8 @@
     "static/js/454.9d483854.chunk.js": "/bright-bites/static/js/454.9d483854.chunk.js",
     "static/js/488.1ad26593.chunk.js": "/bright-bites/static/js/488.1ad26593.chunk.js",
     "index.html": "/bright-bites/index.html",
-    "main.d02fc638.css.map": "/bright-bites/static/css/main.d02fc638.css.map",
-    "main.13a312bd.js.map": "/bright-bites/static/js/main.13a312bd.js.map",
+    "main.a300d3d6.css.map": "/bright-bites/static/css/main.a300d3d6.css.map",
+    "main.0c072b3e.js.map": "/bright-bites/static/js/main.0c072b3e.js.map",
     "904.149d2386.chunk.js.map": "/bright-bites/static/js/904.149d2386.chunk.js.map",
     "134.98c687c0.chunk.js.map": "/bright-bites/static/js/134.98c687c0.chunk.js.map",
     "154.080d0ac7.chunk.js.map": "/bright-bites/static/js/154.080d0ac7.chunk.js.map",
@@ -25,7 +25,7 @@
     "488.1ad26593.chunk.js.map": "/bright-bites/static/js/488.1ad26593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d02fc638.css",
-    "static/js/main.13a312bd.js"
+    "static/css/main.a300d3d6.css",
+    "static/js/main.0c072b3e.js"
   ]
 }
