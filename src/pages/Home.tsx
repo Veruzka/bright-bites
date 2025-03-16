@@ -5,9 +5,13 @@ import SideNavigation from "../stories/BB_SideNavigation";
 import Spacing from "../stories/BB_Spacing";
 //import Sidebar from "../framer/sidebar";
 //import ItemsListFramerComponent from "../framer/items-list";
-import { Divider, Sidebar, Card, ItemsListFramerComponent } from "framer-components";
+//import { Sidebar, Card, ItemsListFramerComponent } from "framer-components";
 
 const Hero = React.lazy(() => import("../stories/BB_Hero"));
+const Divider = React.lazy(() => import("framer-components/dist/divider"));
+const Card = React.lazy(() => import("framer-components/dist/card"));
+const ItemsListFramerComponent = React.lazy(() => import("framer-components/dist/items-list"));
+const Sidebar = React.lazy(() => import("framer-components/dist/sidebar"));
 
 const Home: React.FC = () => {
 
@@ -25,17 +29,23 @@ const Home: React.FC = () => {
                 </Suspense>
                 <div style={{ flexGrow: 1, padding: "24px 80px" }}>
                     <h1>Welcome to My Portfolio</h1>
+                    <Suspense fallback={<div>Loading...</div>}>
                     <Divider locale="en"/>
+                    </Suspense>
                     <Spacing size="56"/>
                     <p>This is the homepage.</p>
                     <ItemsListFramerComponent locale="en"/>
+                    <Suspense fallback={<div>Loading...</div>}>
                     <Card locale="en"/>
+                    </Suspense>
                 </div>
             </div>
 
             {/* Right Sidebar (Search Feature) */}
             <div >
+            <Suspense fallback={<div>Loading...</div>}>
                 <Sidebar locale="en"/>
+                </Suspense>
             </div>
         </div>
 
