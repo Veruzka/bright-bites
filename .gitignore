@@ -8,3 +8,6 @@ storybook-static/
 # Ignore cache files
 *.cache
 .cache/
+
+dist/
+build/

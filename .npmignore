@@ -1,0 +1,8 @@
+node_modules/
+src/
+storybook-static/
+.cache/
+build/
+dist/
+*.log
+*.lock
