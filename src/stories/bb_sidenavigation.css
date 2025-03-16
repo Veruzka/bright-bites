@@ -9,6 +9,7 @@
     border-right: 1px solid #e0e0e0;
     padding: 20px 0;
     position: fixed;
+    z-index: 1;
   }
   
   .side-nav__logo img {

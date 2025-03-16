@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Shopify from "./pages/Shopify";
 import Etsy from "./pages/Etsy";
+import "framer-components/dist/styles.css";
 
 
 const App: React.FC = () => {

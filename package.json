@@ -12,6 +12,7 @@
     "@radix-ui/themes": "^3.2.1",
     "classnames": "^2.5.1",
     "cra-template": "1.2.0",
+    "framer-components": "file:packages/framer-components",
     "framer-motion": "^12.4.7",
     "phosphor-react": "^1.4.1",
     "react": "^19.0.0",

@@ -1,10 +1,11 @@
 import React, { Suspense } from "react";
 import SideNavigation from "../stories/BB_SideNavigation";
-import Card from "../framer/card";
-import Divider from "../framer/divider";
+//import Card from "../framer/card";
+//import Divider from "../framer/divider";
 import Spacing from "../stories/BB_Spacing";
-import Sidebar from "../framer/sidebar";
-import ItemsListFramerComponent from "../framer/items-list";
+//import Sidebar from "../framer/sidebar";
+//import ItemsListFramerComponent from "../framer/items-list";
+import { Divider, Sidebar, Card, ItemsListFramerComponent } from "framer-components";
 
 const Hero = React.lazy(() => import("../stories/BB_Hero"));
 
@@ -24,17 +25,17 @@ const Home: React.FC = () => {
                 </Suspense>
                 <div style={{ flexGrow: 1, padding: "24px 80px" }}>
                     <h1>Welcome to My Portfolio</h1>
-                    <Divider/>
+                    <Divider locale="en"/>
                     <Spacing size="56"/>
                     <p>This is the homepage.</p>
-                    <ItemsListFramerComponent/>
-                    <Card/>
+                    <ItemsListFramerComponent locale="en"/>
+                    <Card locale="en"/>
                 </div>
             </div>
 
             {/* Right Sidebar (Search Feature) */}
             <div >
-                <Sidebar/>
+                <Sidebar locale="en"/>
             </div>
         </div>
 

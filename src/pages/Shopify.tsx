@@ -1,12 +1,12 @@
 import React from "react";
-import Navigation from "../stories/Framer_Navigation";
+import { Navigation } from "framer-components";
 
 const Shopify: React.FC = () => {
     return (
         <div style={{ display: "flex", height: "100vh" }}>
             {/* Side navigation */}
             <div style={{ width: "250px", flexShrink: 0 }}>
-                <Navigation />
+                <Navigation locale="en"/>
             </div>
 
             {/* Main content */}
