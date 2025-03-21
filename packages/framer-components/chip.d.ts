@@ -6,7 +6,7 @@ import { UnframerBreakpoint } from "unframer"
 type Locale = string
 export interface Props {
     children?: React.ReactNode
-    locale?: Locale
+    locale?: any
     style?: React.CSSProperties
     className?: string
     id?: string
@@ -15,13 +15,14 @@ export interface Props {
     layoutId?: string
     "link"?: string
     "category"?: string
+    variant?: 'Desktop' | 'Tablet' | 'Phone' | 'Phone [Visible]' | 'Variant 5' | 'Phone [Dropdown]'
 }
 
-const ChipFramerComponent = (props: Props) => any
+export declare const ChipFramerComponent: React.FC<Props>; 
 
-type VariantsMap = Partial<Record<UnframerBreakpoint, Props['variant']>> & { base: Props['variant'] }
+export declare type VariantsMap = Partial<Record<UnframerBreakpoint, Props['variant']>> & { base: Props['variant'] };
 
-ChipFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
+export declare const ResponsiveChipFramerComponent: React.FC<Omit<Props, 'variant'> & { variants?: VariantsMap }>;
 
 export default ChipFramerComponent
 

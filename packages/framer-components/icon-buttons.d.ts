@@ -6,7 +6,7 @@ import { UnframerBreakpoint } from "unframer"
 type Locale = string
 export interface Props {
     children?: React.ReactNode
-    locale?: Locale
+    locale?: any
     style?: React.CSSProperties
     className?: string
     id?: string
@@ -20,11 +20,18 @@ export interface Props {
     "tooltip"?: string
 }
 
-const IconButtonsFramerComponent = (props: Props) => any
+export declare function IconButtonsFramerComponent(props: Props): any;
 
-type VariantsMap = Partial<Record<UnframerBreakpoint, Props['variant']>> & { base: Props['variant'] }
+export declare namespace IconButtonsFramerComponent {
+  function Responsive(
+    props: Omit<Props, "variant"> & { variants?: VariantsMap }
+  ): any;
+}
 
-IconButtonsFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
+export declare type VariantsMap = Partial<
+  Record<UnframerBreakpoint, Props["variant"]>
+> & {
+  base: Props["variant"];
+};
 
-export default IconButtonsFramerComponent
-
+export default IconButtonsFramerComponent;

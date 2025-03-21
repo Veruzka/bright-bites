@@ -6,7 +6,7 @@ import { UnframerBreakpoint } from "unframer"
 type Locale = string
 export interface Props {
     children?: React.ReactNode
-    locale?: Locale
+    locale?: any
     style?: React.CSSProperties
     className?: string
     id?: string
@@ -16,11 +16,29 @@ export interface Props {
     "variant"?: '$spacing-10' | '$spacing-200' | '$spacing-100' | '$spacing-90' | '$spacing-80' | '$spacing-70' | '$spacing-60' | '$spacing-50' | '$spacing-40' | '$spacing-30' | '$spacing-25' | '$spacing-20' | '$spacing-15' | '$spacing-5'
 }
 
-const SpacingFramerComponent = (props: Props) => any
+/*const SpacingFramerComponent = (props: Props) => any
 
 type VariantsMap = Partial<Record<UnframerBreakpoint, Props['variant']>> & { base: Props['variant'] }
 
 SpacingFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
 
-export default SpacingFramerComponent
+export default SpacingFramerComponent*/
+
+export declare function SpacingFramerComponent(props: Props): any;
+
+export declare namespace SpacingFramerComponent {
+  function Responsive(
+    props: Omit<Props, "variant"> & { variants?: VariantsMap }
+  ): any;
+}
+
+export declare type VariantsMap = Partial<
+  Record<UnframerBreakpoint, NonNullable<Props["variant"]>>
+> & {
+  base: NonNullable<Props["variant"]>;
+};
+
+export default SpacingFramerComponent;
+
+
 
