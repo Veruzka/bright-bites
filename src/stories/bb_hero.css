@@ -30,22 +30,6 @@
     z-index: 0;
   }
   
-  h1 {
-    font-size: 24px;
-    color: #060A23;
-    margin-bottom: 10px;
-    position: relative;
-    z-index: 1;
-    text-align: left;
-  }
-  
-  p {
-    font-size: 14px;
-    color: #636A7E;
-    margin-bottom: 20px;
-    position: relative;
-    z-index: 1;
-    text-align: left;
-  }
+ 
   
   

@@ -20,6 +20,7 @@ h2 {
     color: #060A23;
     font-weight: 600; /* SemiBold */
     font-style: normal;
+    margin: 16px 0 !important; 
 }
 
 h2.bold {
@@ -36,12 +37,12 @@ h3 {
     line-height: 1.4em;
     color: #060A23;
     font-weight: 500; /* Medium */
-    margin-bottom: 40px;
     font-style: normal;
 }
 
 h3.bold {
     font-weight: bold;
+    outline: 2px solid red;
 }
 
 h3.italic {
@@ -69,9 +70,12 @@ p.summary-home {
     font-size: 16px;
     letter-spacing: -0.2px;
     line-height: 1.4em;
-    color: #060A23;
+    color: #636A7E;
     font-weight: 400; /* Regular */
     font-style: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
 }
 
 p.summary-home.bold {
@@ -100,7 +104,7 @@ p.body.italic {
 }
 
 p.small {
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0px;
     line-height: 1.5em;
     color: #060A23;

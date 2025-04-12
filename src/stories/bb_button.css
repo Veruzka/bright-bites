@@ -8,6 +8,7 @@
     border: 1px solid #E6E6E6; 
     display: flex;
     z-index: 0;
+    height: 16px;
   }
   .button:hover {
     background-color: #F5F5F5;
@@ -34,13 +35,13 @@
   }
   .button--medium {
     padding: 8px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .button--large {
     align-items: center;   
     justify-content: center;
     padding: 12px;
-    font-size: 14px;
+    font-size: 12px;
     width: 250px;
     text-align: center;
   }

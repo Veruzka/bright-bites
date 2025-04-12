@@ -1,0 +1,40 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    color: inherit;
+    text-decoration: none;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-avatar {
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    opacity: 0.9;
+}
+
+.card-body {
+    display: flex;
+
+}
+
+.card-preview {
+    flex-shrink: 0;
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(41, 41, 41, 0.1);
+}
+
+.card-copy {
+    flex: 1;
+    margin: 0px 32px;
+}
