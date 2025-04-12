@@ -1,31 +1,23 @@
 {
   "files": {
-    "main.css": "/bright-bites/static/css/main.a300d3d6.css",
-    "main.js": "/bright-bites/static/js/main.0c072b3e.js",
-    "static/js/904.149d2386.chunk.js": "/bright-bites/static/js/904.149d2386.chunk.js",
-    "static/js/134.98c687c0.chunk.js": "/bright-bites/static/js/134.98c687c0.chunk.js",
-    "static/js/154.080d0ac7.chunk.js": "/bright-bites/static/js/154.080d0ac7.chunk.js",
-    "static/js/624.ac53caa3.chunk.js": "/bright-bites/static/js/624.ac53caa3.chunk.js",
-    "static/js/691.52f102ff.chunk.js": "/bright-bites/static/js/691.52f102ff.chunk.js",
-    "static/js/991.ac5a048b.chunk.js": "/bright-bites/static/js/991.ac5a048b.chunk.js",
-    "static/js/49.0ea0f630.chunk.js": "/bright-bites/static/js/49.0ea0f630.chunk.js",
-    "static/js/454.9d483854.chunk.js": "/bright-bites/static/js/454.9d483854.chunk.js",
-    "static/js/488.1ad26593.chunk.js": "/bright-bites/static/js/488.1ad26593.chunk.js",
-    "index.html": "/bright-bites/index.html",
-    "main.a300d3d6.css.map": "/bright-bites/static/css/main.a300d3d6.css.map",
-    "main.0c072b3e.js.map": "/bright-bites/static/js/main.0c072b3e.js.map",
-    "904.149d2386.chunk.js.map": "/bright-bites/static/js/904.149d2386.chunk.js.map",
-    "134.98c687c0.chunk.js.map": "/bright-bites/static/js/134.98c687c0.chunk.js.map",
-    "154.080d0ac7.chunk.js.map": "/bright-bites/static/js/154.080d0ac7.chunk.js.map",
-    "624.ac53caa3.chunk.js.map": "/bright-bites/static/js/624.ac53caa3.chunk.js.map",
-    "691.52f102ff.chunk.js.map": "/bright-bites/static/js/691.52f102ff.chunk.js.map",
-    "991.ac5a048b.chunk.js.map": "/bright-bites/static/js/991.ac5a048b.chunk.js.map",
-    "49.0ea0f630.chunk.js.map": "/bright-bites/static/js/49.0ea0f630.chunk.js.map",
-    "454.9d483854.chunk.js.map": "/bright-bites/static/js/454.9d483854.chunk.js.map",
-    "488.1ad26593.chunk.js.map": "/bright-bites/static/js/488.1ad26593.chunk.js.map"
+    "main.css": "/bright-bites/static/css/main.37b4d6a9.css",
+    "main.js": "/bright-bites/static/js/main.e6103c6b.js",
+    "static/css/846.d34c382a.chunk.css": "/bright-bites/static/css/846.d34c382a.chunk.css",
+    "static/js/846.c31144c5.chunk.js": "/bright-bites/static/js/846.c31144c5.chunk.js",
+    "static/js/285.48ae76fe.chunk.js": "/bright-bites/static/js/285.48ae76fe.chunk.js",
+    "static/js/601.6ba05f8c.chunk.js": "/bright-bites/static/js/601.6ba05f8c.chunk.js",
+    "static/js/763.ab29f358.chunk.js": "/bright-bites/static/js/763.ab29f358.chunk.js",
+    "static/js/143.af4e4c7b.chunk.js": "/bright-bites/static/js/143.af4e4c7b.chunk.js",
+    "static/js/320.80698d4c.chunk.js": "/bright-bites/static/js/320.80698d4c.chunk.js",
+    "static/js/502.f2c75b73.chunk.js": "/bright-bites/static/js/502.f2c75b73.chunk.js",
+    "static/js/266.1cf538b0.chunk.js": "/bright-bites/static/js/266.1cf538b0.chunk.js",
+    "static/js/577.a09095c2.chunk.js": "/bright-bites/static/js/577.a09095c2.chunk.js",
+    "static/js/685.4d93c405.chunk.js": "/bright-bites/static/js/685.4d93c405.chunk.js",
+    "static/media/shopify_ceramics.jpg": "/bright-bites/static/media/shopify_ceramics.82716935e40cc14f541a.jpg",
+    "index.html": "/bright-bites/index.html"
   },
   "entrypoints": [
-    "static/css/main.a300d3d6.css",
-    "static/js/main.0c072b3e.js"
+    "static/css/main.37b4d6a9.css",
+    "static/js/main.e6103c6b.js"
   ]
 }
