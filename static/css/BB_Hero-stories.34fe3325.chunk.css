@@ -1,0 +1,82 @@
+.hero-main {
+    position: relative;
+    background-color: white; /* ✅ Ensures pure white background */
+    padding: 0px 80px; /* ✅ 48px top/bottom, 60px left/right */
+    width: 100vw; /* ✅ Full width of the viewport */
+    height: 240px; /* ✅ Set hero height */
+    border-radius: 0; /* ✅ Remove rounding to cover full width */
+    text-align: left; /* ✅ Aligns text & content to the left */
+    font-family: "Poppins", sans-serif;
+    overflow: hidden; /* ✅ Prevents the dots from overflowing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* ✅ Centers content vertically */
+    flex-shrink: 0;
+  }
+  
+  /* Dotted background effect */
+  .hero-main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 240px;
+    background-image: radial-gradient(circle, #ccc 1px, transparent 1px);
+    background-size: 8px 8px; /* Adjust dot spacing */
+    opacity: 0.3; /* Adjust visibility */
+    z-index: 0;
+  }
+  
+ 
+  
+  
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6px; 
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #E6E6E6; 
+    display: flex;
+    z-index: 0;
+    height: 16px;
+  }
+  .button:hover {
+    background-color: #F5F5F5;
+  }
+  .button--primary {
+    background-color: #6936F5;
+    color: white;
+  }
+  .button--primary:hover {
+    background-color: #3d0fb9;
+    color: white;
+  }
+  .button--secondary {
+    background-color: white;
+    color: #060A23;
+  }
+  .button--secondary:hover {
+    background-color: #F5F5F5;
+    color: #060A23;
+  }
+  .button--small {
+    padding: 4px;
+    font-size: 10px;
+  }
+  .button--medium {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .button--large {
+    align-items: center;   
+    justify-content: center;
+    padding: 12px;
+    font-size: 12px;
+    width: 250px;
+    text-align: center;
+  }

@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+/* Import Poppins font */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: -1.2px;
+    line-height: 1.3em;
+    color: #060A23;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    line-height: 1.4em;
+    color: #060A23;
+    font-weight: 600; /* SemiBold */
+    font-style: normal;
+    margin: 16px 0 !important; 
+}
+
+h2.bold {
+    font-weight: bold;
+}
+
+h2.italic {
+    font-style: italic;
+}
+
+h3 {
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    line-height: 1.4em;
+    color: #060A23;
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+h3.bold {
+    font-weight: bold;
+    outline: 2px solid red;
+}
+
+h3.italic {
+    font-style: italic;
+}
+
+p.summary {
+    font-size: 24px;
+    letter-spacing: -0.4px;
+    line-height: 1.4em;
+    color: #636A7E;
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+p.summary.bold {
+    font-weight: bold;
+}
+
+p.summary.italic {
+    font-style: italic;
+}
+
+p.summary-home {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    line-height: 1.4em;
+    color: #636A7E;
+    font-weight: 400; /* Regular */
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+p.summary-home.bold {
+    font-weight: bold;
+}
+
+p.summary-home.italic {
+    font-style: italic;
+}
+
+p.body {
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    line-height: 1.6em;
+    color: #060A23;
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+p.body.bold {
+    font-weight: bold;
+}
+
+p.body.italic {
+    font-style: italic;
+}
+
+p.small {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 1.5em;
+    color: #060A23;
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+p.small.bold {
+    font-weight: bold;
+}
+
+p.small.italic {
+    font-style: italic;
+}
+
+p.small-bold {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 1.5em;
+    color: #060A23;
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+p.small-bold.bold {
+    font-weight: bold;
+}
+
+p.small-bold.italic {
+    font-style: italic;
+}
+

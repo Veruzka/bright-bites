@@ -1,0 +1,108 @@
+.chip {
+    background-color: #f5f5f5; 
+    font-family: inherit;
+    border-radius: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    opacity: 1;
+    transition: background-color 0.2s ease;
+    height: 35px;
+    max-width: 350px;
+    overflow: hidden;          
+    text-overflow: ellipsis;     
+    display: flex;
+    flex-wrap: wrap;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.chip:hover {
+    background-color: #f0f0f0;
+}
+.input {
+    -webkit-appearance: none;
+            appearance: none;
+    width: 100%;
+    line-height: 1.4em;
+    outline: none;
+    border: none;
+    padding: 12px 14px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    background: rgb(245, 245, 245);
+    color: rgb(26, 26, 26);
+    box-shadow: inset 0 0 0 1px transparent;
+    font-family: inherit;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6px; 
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #E6E6E6; 
+    display: flex;
+    z-index: 0;
+    height: 16px;
+  }
+  .button:hover {
+    background-color: #F5F5F5;
+  }
+  .button--primary {
+    background-color: #6936F5;
+    color: white;
+  }
+  .button--primary:hover {
+    background-color: #3d0fb9;
+    color: white;
+  }
+  .button--secondary {
+    background-color: white;
+    color: #060A23;
+  }
+  .button--secondary:hover {
+    background-color: #F5F5F5;
+    color: #060A23;
+  }
+  .button--small {
+    padding: 4px;
+    font-size: 10px;
+  }
+  .button--medium {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .button--large {
+    align-items: center;   
+    justify-content: center;
+    padding: 12px;
+    font-size: 12px;
+    width: 250px;
+    text-align: center;
+  }
+.sidebar {
+    width: 350px;
+    padding: 40px;
+    background-color: white;
+    border-left: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between; 
+  }
+  
+  .chip-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .ask-section {
+    display: grid;
+    grid-gap: 10px;
+    gap: 10px;
+  }
