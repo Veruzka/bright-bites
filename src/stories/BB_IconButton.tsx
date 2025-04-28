@@ -4,15 +4,26 @@ import * as Icons from "phosphor-react";
 import { House } from "phosphor-react";
 import './bb_iconbutton.css';
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 interface BB_IconButtonProps {
   icon: keyof typeof Icons;
   tooltipText: string;
+  to?: string;
 }
 
-const IconButton: React.FC<BB_IconButtonProps> = ({icon, tooltipText}) => {
+const IconButton: React.FC<BB_IconButtonProps> = ({icon, tooltipText, to}) => {
   const IconComponent = (Icons[icon] as React.ElementType) || House;
   const [selected, setSelected] = useState(false);
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    setSelected(!selected);
+    if (to) {
+      navigate(to);
+    }
+  };
+
 
 	return (
 		<Tooltip.Provider delayDuration={0}>
@@ -20,7 +31,7 @@ const IconButton: React.FC<BB_IconButtonProps> = ({icon, tooltipText}) => {
 				<Tooltip.Trigger asChild>
           <motion.button
               className={`IconButton ${selected ? "selected" : ""}`} 
-              onClick={() => setSelected(!selected)}
+              onClick={handleClick}
               whileHover={{
                 backgroundColor: "#F5F5F5",
                 color: "#060A23",

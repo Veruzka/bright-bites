@@ -3,6 +3,12 @@
     flex-direction: column;
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.card-container:hover h2 {
+    color: #6936F5;
+    transition: color 0.3s ease;
 }
 
 .card-header {
@@ -20,6 +26,15 @@
     opacity: 0.9;
 }
 
+.page-avatar {
+    height: 48px;
+    width: 48px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    opacity: 0.9;
+}
+
 .card-body {
     display: flex;
 
@@ -31,7 +46,6 @@
     width: 200px;
     background-size: cover;
     border-radius: 8px;
-    border: 1px solid rgba(41, 41, 41, 0.1);
 }
 
 .card-copy {

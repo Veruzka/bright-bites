@@ -3,13 +3,16 @@ import "../styles/typography.css";
 import './bb_card.css';
 import Divider from './BB_Divider';
 import Spacing from "./BB_Spacing";
+import { Link } from "react-router-dom";
 
 export interface CardProps {
-    avatarURL: string; 
-    platformName: string;
+    avatarURL?: string; 
+    platformName?: string;
     imageURL: string;
     title: string;
     description: string;
+    linkTo: string;
+    in?: boolean;
 };
 
 
@@ -19,13 +22,24 @@ export const Card: React.FC<CardProps> = ({
     imageURL,
     title,
     description,
+    linkTo,
 }) => {
+    const showHeader = avatarURL || platformName;
+
   return (
-    <a className="card-container" >
-    <div className="card-header">
-        <div className="card-avatar" style={{ backgroundImage: `url(${avatarURL})` }}/>
-        <p className="small">in {platformName}</p>
-    </div>
+    <Link to={linkTo} className="card-container">
+        {showHeader && (
+        <div className="card-header">
+          {avatarURL && (
+            <div
+              className="card-avatar"
+              style={{ backgroundImage: `url(${avatarURL})` }}
+            />
+          )}
+          {platformName && <p className="small caption">in {platformName}</p>}
+        </div>
+      )}
+
     <div>
         <Spacing size={"16"}/>
     </div>
@@ -39,7 +53,7 @@ export const Card: React.FC<CardProps> = ({
     </div>
     <Spacing size={"24"}/>
     <Divider/>
-</a>
+    </Link>
   );
 
 };

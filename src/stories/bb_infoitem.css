@@ -1,0 +1,8 @@
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #636A7E;
+    font-weight: 500;
+  }

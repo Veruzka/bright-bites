@@ -15,6 +15,7 @@ export const Default = () => (
         imageURL={previewImg}
         title='San Francisco Ceramics'
         description='Hand crafted ceramics with function and sustainability in mind'
+        linkTo="/Shopify"
     />
     
 

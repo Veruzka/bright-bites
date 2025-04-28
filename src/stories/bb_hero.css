@@ -1,17 +1,18 @@
 .hero-main {
     position: relative;
-    background-color: white; /* ✅ Ensures pure white background */
-    padding: 0px 80px; /* ✅ 48px top/bottom, 60px left/right */
-    width: 100vw; /* ✅ Full width of the viewport */
-    height: 240px; /* ✅ Set hero height */
-    border-radius: 0; /* ✅ Remove rounding to cover full width */
-    text-align: left; /* ✅ Aligns text & content to the left */
+    background-color: white; /* Ensures pure white background */
+    padding: 0px 80px; /* 48px top/bottom, 60px left/right */
+    width: 100vw; /* Full width of the viewport */
+    height: 240px; /* Set hero height */
+    border-radius: 0; /* Remove rounding to cover full width */
+    text-align: left; /* Aligns text & content to the left */
     font-family: "Poppins", sans-serif;
-    overflow: hidden; /* ✅ Prevents the dots from overflowing */
+    overflow: hidden; /* Prevents the dots from overflowing */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* ✅ Centers content vertically */
+    justify-content: center; /* Centers content vertically */
     flex-shrink: 0;
+    border-bottom: solid 1px #E6E6E6;
   }
   
   /* Dotted background effect */

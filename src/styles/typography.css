@@ -20,7 +20,7 @@ h2 {
     color: #060A23;
     font-weight: 600; /* SemiBold */
     font-style: normal;
-    margin: 16px 0 !important; 
+    margin: 8px 0 !important; 
 }
 
 h2.bold {
@@ -50,12 +50,13 @@ h3.italic {
 }
 
 p.summary {
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: -0.4px;
     line-height: 1.4em;
     color: #636A7E;
     font-weight: 300; /* Light */
     font-style: normal;
+    opacity: 0.8;
 }
 
 p.summary.bold {
@@ -108,6 +109,15 @@ p.small {
     letter-spacing: 0px;
     line-height: 1.5em;
     color: #060A23;
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+p.small.caption {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 1.5em;
+    color: #636A7E;
     font-weight: 400; /* Regular */
     font-style: normal;
 }

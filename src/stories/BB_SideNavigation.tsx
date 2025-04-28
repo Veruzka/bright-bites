@@ -41,10 +41,14 @@ const SideNavigation = () => {
     <div className="side-nav">
       <div className="side-nav__logo">
         <Hexagon size={48} weight='thin' />
+        <div className="logo">
+          <p className="small bold"></p>
+          <p className="small bold"></p>
+        </div>
       </div>
       <div className="side-nav__buttons">
       
-          <IconButton icon="House" tooltipText="Homepage" />
+          <IconButton icon="House" tooltipText="Homepage" to="/"/>
      
       
           <IconButton icon="User" tooltipText="Profile" />

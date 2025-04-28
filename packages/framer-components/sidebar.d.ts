@@ -6,7 +6,7 @@ import { UnframerBreakpoint } from "unframer"
 type Locale = string
 export interface Props {
     children?: React.ReactNode
-    locale?: Locale
+    locale?: any
     style?: React.CSSProperties
     className?: string
     id?: string
