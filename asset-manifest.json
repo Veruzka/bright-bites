@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/bright-bites/static/css/main.37b4d6a9.css",
-    "main.js": "/bright-bites/static/js/main.e6103c6b.js",
-    "static/css/846.d34c382a.chunk.css": "/bright-bites/static/css/846.d34c382a.chunk.css",
-    "static/js/846.c31144c5.chunk.js": "/bright-bites/static/js/846.c31144c5.chunk.js",
+    "main.css": "/bright-bites/static/css/main.8620aae6.css",
+    "main.js": "/bright-bites/static/js/main.0feb1df2.js",
+    "static/css/846.182d3769.chunk.css": "/bright-bites/static/css/846.182d3769.chunk.css",
+    "static/js/846.4ff68afb.chunk.js": "/bright-bites/static/js/846.4ff68afb.chunk.js",
+    "static/js/986.f58453e1.chunk.js": "/bright-bites/static/js/986.f58453e1.chunk.js",
+    "static/js/685.4d93c405.chunk.js": "/bright-bites/static/js/685.4d93c405.chunk.js",
+    "static/js/577.a09095c2.chunk.js": "/bright-bites/static/js/577.a09095c2.chunk.js",
     "static/js/285.48ae76fe.chunk.js": "/bright-bites/static/js/285.48ae76fe.chunk.js",
     "static/js/601.6ba05f8c.chunk.js": "/bright-bites/static/js/601.6ba05f8c.chunk.js",
     "static/js/763.ab29f358.chunk.js": "/bright-bites/static/js/763.ab29f358.chunk.js",
@@ -11,13 +14,20 @@
     "static/js/320.80698d4c.chunk.js": "/bright-bites/static/js/320.80698d4c.chunk.js",
     "static/js/502.f2c75b73.chunk.js": "/bright-bites/static/js/502.f2c75b73.chunk.js",
     "static/js/266.1cf538b0.chunk.js": "/bright-bites/static/js/266.1cf538b0.chunk.js",
-    "static/js/577.a09095c2.chunk.js": "/bright-bites/static/js/577.a09095c2.chunk.js",
-    "static/js/685.4d93c405.chunk.js": "/bright-bites/static/js/685.4d93c405.chunk.js",
+    "static/js/656.95bdae66.chunk.js": "/bright-bites/static/js/656.95bdae66.chunk.js",
     "static/media/shopify_ceramics.jpg": "/bright-bites/static/media/shopify_ceramics.82716935e40cc14f541a.jpg",
+    "static/media/ceramics3D_etsyHero.png": "/bright-bites/static/media/ceramics3D_etsyHero.a5478771f6d164124dc1.png",
+    "static/media/ceramics3D_shopifyHero.png": "/bright-bites/static/media/ceramics3D_shopifyHero.13857cb2e49b3152d9b3.png",
+    "static/media/ceramics3D_img8.png": "/bright-bites/static/media/ceramics3D_img8.c2db9aa2060e080d6753.png",
+    "static/media/imgWorking.png": "/bright-bites/static/media/imgWorking.7d9a8cb0cb66b186253b.png",
+    "static/media/ceramics3D_img7.png": "/bright-bites/static/media/ceramics3D_img7.3ff1aa436041facd23d9.png",
+    "static/media/imgImprovements.png": "/bright-bites/static/media/imgImprovements.3d91b37ca9f2a55c785a.png",
+    "static/media/imgNotWorking.png": "/bright-bites/static/media/imgNotWorking.6a362bdf95a7141e48e5.png",
+    "static/media/Etsy.svg": "/bright-bites/static/media/Etsy.19fb3eb3465e9f4da6b9b37b8f787397.svg",
     "index.html": "/bright-bites/index.html"
   },
   "entrypoints": [
-    "static/css/main.37b4d6a9.css",
-    "static/js/main.e6103c6b.js"
+    "static/css/main.8620aae6.css",
+    "static/js/main.0feb1df2.js"
   ]
 }
